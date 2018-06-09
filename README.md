@@ -11,7 +11,6 @@ Learning to code can be fun and rewarding. When building our own apps, we typica
 ## Requirements
 - Python 3
 - Django
-Run:
 ```
 $ pip install django
 ```
