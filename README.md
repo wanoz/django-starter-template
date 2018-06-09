@@ -9,7 +9,7 @@ Learning to code can be fun and rewarding. When building our own apps, we typica
 - Django is written in Python (and Python is a general programming language, that as of 2018, has seen an increase in its popularity not just in the programming community. but a huge increase in the analytics and machine learning community).
 
 ## Requirements
-- Python 3
+- Python 3 (download from: https://www.python.org/downloads/)
 - Django
 ```
 $ pip install django
