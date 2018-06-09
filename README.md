@@ -5,8 +5,8 @@ Learning to code can be fun and rewarding. When building our own apps, we typica
 
 ## Few comments on Django
 - Django is a relatively mature Python framework used for back-end web development and server operations.
-- Django's official documentation is known to be very high in quality (with numerous useful tutorials available online).
-- Django is written in Python (and Python is a general programming language, that as of 2018, has seen an increase in its popularity not just in the programming community. but a huge increase in the analytics and machine learning community). See the official documentation at: https://docs.djangoproject.com/en/2.0/
+- Django's official documentation is known to be very high in quality (with numerous useful tutorials available online). See the official documentation at: https://docs.djangoproject.com/en/2.0/
+- Django is written in Python (and Python is a general programming language, that as of 2018, has seen an increase in its popularity not just in the programming community. but a huge increase in the analytics and machine learning community).
 
 ## Requirements
 - Python 3
