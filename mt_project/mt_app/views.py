@@ -19,17 +19,13 @@ def page_index(request):
             print('Input text: ' + parsed_text)
 
             # Do things with parsed text data
-
-            # ---
-
+            
         if choice_data.is_valid():
             print('Status: choice entry from POST request is valid')
             parsed_choice = choice_data.cleaned_data['choice_input']
             print('Input choice: ' + parsed_choice)
 
             # Do things with parsed choice data
-
-            # ---
 
     else:
         text_data = Text_input()

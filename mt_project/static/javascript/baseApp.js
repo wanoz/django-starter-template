@@ -19,7 +19,7 @@ function eventHandling(event) {
 }
 
 function loadStatus(){
-    document.getElementById('button_primary').textContent = 'Analysing...';
+    document.getElementById('button_primary').textContent = 'Processing...';
     document.getElementById('button_primary').classList.remove('btn_primary');
     document.getElementById('button_primary').classList.add('btn_timeout');
 }
