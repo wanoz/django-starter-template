@@ -20,4 +20,4 @@ $ pip install django
 - Custom CSS template
 
 ## Future updates
-May update this with other useful Django features that is appropriate for a starter template.
+May update this with other useful Django features that may be appropriate and benefitial for a starter template.
