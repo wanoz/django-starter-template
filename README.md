@@ -15,5 +15,9 @@ Learning to code can be fun and rewarding. When building our own apps, we typica
 $ pip install django
 ```
 
+## Other inclusions
+- Bootstrap 4
+- Custom CSS template
+
 ## Future updates
 May update this with other useful Django features that is appropriate for a starter template.
