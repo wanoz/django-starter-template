@@ -1,0 +1,35 @@
+{% extends "base.html" %} 
+
+{% block b1 %}
+<div class="col-1"></div>
+<div class="col-10">
+    <form method="POST" enctype="multipart/form-data" novalidate>
+        {% csrf_token %}
+        <div class="medium_top-spacing">
+            {{ text_form }}
+            {% if text_form.errors %} 
+            {% for field, error in text_form.errors.items %}
+            <div class="alert alert-danger">
+                {{ error | striptags }}
+            </div>
+            {% endfor %} 
+            {% endif %}
+        </div>
+        <div class="medium_top_spacing"></div>
+        <div>
+            {{ choice_form }}
+            {% if choice_form.errors %} 
+            {% for field, error in choice_form.errors.items %}
+            <div class="alert alert-danger">
+                {{ error | striptags }}
+            </div>
+            {% endfor %} 
+            {% endif %}
+        </div>
+        <div class="large_top_spacing center_content">
+            <button type="submit" class="btn btn_primary" onclick="loadStatus()" id="button_primary">Submit</button>
+        </div>
+    </form>
+</div>
+<div class="col-1"></div>
+{% endblock %}
