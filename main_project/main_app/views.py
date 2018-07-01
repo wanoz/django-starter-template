@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from mt_app.forms import Text_input, Choice_input
+from main_app.forms import Text_input, Choice_input
 
 # Django view functions
 def page_index(request):
@@ -37,4 +37,4 @@ def page_index(request):
         'choice_form' : choice_data,
     }
 
-    return render(request, 'mt_app/index.html', context=data_content)
+    return render(request, 'main_app/index.html', context=data_content)
